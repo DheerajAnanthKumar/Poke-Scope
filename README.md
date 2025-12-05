@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+# PokéScope - Kanto Pokedex Mobile App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**PokéScope** is your ultimate mobile companion for exploring Pokémon in the **Kanto region**! This React Native app, built with **Expo Go**, lets users browse, search, and discover Pokémon with detailed **stats**, **types**, **sprites**, and **abilities**.
 
-## Get started
+🔎 Explore. 📊 Learn. 📱 Catch 'em all.
 
-1. Install dependencies
+<img src="https://github.com/user-attachments/assets/74075bba-007a-41de-b26d-95ea0bd17391" width="500" alt="PokéScope Banner" />
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📖 About
 
-In the output, you'll find options to open the app in a
+**PokéScope** simplifies your Pokémon journey by offering:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- A Pokémon list with images and types.
+- Detailed Pokémon information including stats, abilities, height, and weight.
+- Normal & shiny sprites for each Pokémon.
+- Smooth navigation with previous/next arrow buttons.
+- Clean UI designed for mobile screens via Expo Go.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Whether you're a beginner or a Pokémon master, **PokéScope** makes exploring Kanto fun and easy.
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## ✨ Features
 
-```bash
-npm run reset-project
+- 🔍 **Search & Browse** – Quickly find Pokémon by name or ID.
+- 🧩 **Types & Stats** – View Pokémon types and base stats.
+- 📸 **Sprites** – Normal & shiny images for each Pokémon.
+- 🔁 **Navigation Arrows** – Move to previous or next Pokémon easily.
+- 📱 **Mobile-Friendly Design** – Optimized for Expo Go on iOS and Android.
+
+---
+
+## 🛠️ Technologies Used
+
+- ⚛️ **React Native** – For building cross-platform mobile UI.
+- 📦 **Expo Go** – Rapid development and testing environment.
+- 🎨 **React Native Stylesheets** – For smooth mobile styling.
+- 🌐 **PokéAPI** – Source of structured Pokémon data.
+
+---
+
+## 📸 Screenshots
+
+_Home / Pokémon List_  
+<img src="https://github.com/user-attachments/assets/8d37794c-0b2f-410d-b7df-40c7a931cc47" width="300" />
+<img src="https://github.com/user-attachments/assets/0854fcc6-c600-43ae-85af-a564bfa88076" width="300" />
+<img src="https://github.com/user-attachments/assets/6e73fc08-8252-4ccb-b500-f16488a36913" width="300" />
+
+_Detail View: Stats, Abilities, Sprites_  
+<img src="https://github.com/user-attachments/assets/aa150f2d-3fa5-4e61-93f1-e56dd80e17ff" width="300" />
+<img src="https://github.com/user-attachments/assets/f9613e4f-f6c4-4124-81e3-99a46e324166" width="300" />
+
+---
+
+## 📁 Folder Structure
+
+
+```
+Pokedex/
+├── App.tsx
+├── app/
+│ ├── index.tsx
+│ └── details.tsx
+├── components/
+│ └── Loader.tsx
+├── assets/
+├── package.json
+└── README.md
+````
+
+---
+
+## 📦 Installation
+
+1. Clone the repository:
+```
+git clone https://github.com/yourusername/pok-escope.git
+
+cd poke-scope/Pokedex
+```
+## Install dependencies:
+```
+npm install
+```
+## Run the app locally in Expo Go:
+```
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+## 🙏 Acknowledgements
 
-To learn more about developing your project with Expo, look at the following resources:
+* [PokéAPI](https://pokeapi.co/) – Free Pokémon data API.
+* [React Native](https://reactnative.dev/) – Cross-platform mobile development framework.
+* [Expo](https://expo.dev/) – Development and testing platform for React Native apps.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## ✍️ About the Author
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Created by **Dheeraj Ananth Kumar** — mobile app and React Native enthusiast.  
+Check out more of my work on [GitHub](https://github.com/DheerajAnanthKumar).
